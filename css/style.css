@@ -1,0 +1,14 @@
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	color: white;
+	animation: anim 2s linear infinite;
+}
+
+@keyframes anim {
+	0% {background-color: black}
+	50% {background-color: blue}
+	100% {background-color: black}
+}
